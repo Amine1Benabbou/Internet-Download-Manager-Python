@@ -15,9 +15,8 @@ my_system = platform.uname()
 
 wifi  = speedtest.Speedtest()
 
-dirname = os.path.dirname("C:/Users/AMINE/Documents/GitHub/")
-relp="./Internet-Download-Manager-Project-Python/Download Manager Projet/IDM"
-fullpath= os.path.join(dirname, relp)
+#remember to put your project directory on fullpath
+fullpath= ""
 
 #-------------------------------------------------------------------------------------------------------------------------------
 def get_size(url):
