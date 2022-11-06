@@ -232,11 +232,11 @@ def form6():
 #----------------------------------------------------------------------------------------------------------------------------
 playout=[
             [
-            gui.Button(image_filename=fullpath+"/down.png",image_size=(64,64),key='download'),
-            gui.Button(image_filename=fullpath+"/st.png",image_size=(64,64),key='st'),
-            gui.Button(image_filename=fullpath+"/pcstat.png",image_size=(64,64),key='pcstat'),
-            gui.Button(image_filename=fullpath+"/rams.png",image_size=(64,64),key='ram'),
-            gui.Button(image_filename=fullpath+"/info.png",image_size=(64,64),key='credits')
+            gui.Button(image_filename=fullpath+"/IDM/down.png",image_size=(64,64),key='download'),
+            gui.Button(image_filename=fullpath+"/IDM/st.png",image_size=(64,64),key='st'),
+            gui.Button(image_filename=fullpath+"/IDM/pcstat.png",image_size=(64,64),key='pcstat'),
+            gui.Button(image_filename=fullpath+"/IDM/rams.png",image_size=(64,64),key='ram'),
+            gui.Button(image_filename=fullpath+"/IDM/info.png",image_size=(64,64),key='credits')
             ]
         ]
 wp=gui.Window(title='Download Manager',layout=playout,size=(400,80))
